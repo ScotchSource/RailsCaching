@@ -1,0 +1,8 @@
+<%# cache employee do %>
+<li>
+  <%= employee.full_name %> (<%= employee.gender %>)<br>
+  <%= mail_to employee.email %><br>
+  <b>Salary</b>: <%= employee.salary %><br>
+  <b>Final salary</b>: <%= employee.final_salary %>
+</li>
+<%# end %>
